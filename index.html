@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Ticketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="">
+    <!-- header section start -->
+    <section class="flex justify-between min-h-screen mx-auto container pt-8">
+     <div class="">
+        <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold ">P-Ticket</h1>
+     </div>
+     <div>
+        <ul class="flex text-3xl gap-x-10 pt-6 ">
+            <a href="#"><li class="hover:text-lime-600">Home</li></a>
+            <a href="#"><li class="hover:text-lime-600">About</li></a>
+            <a href="#"><li class="hover:text-lime-600">Destination</li></a>
+            <a href="#"><li class="hover:text-lime-600">Search</li></a>
+        </ul>
+     </div>
+     <div class="">
+        <div class="flex gap-3 text-3xl border-lime-500 border-2 bg-lime-200 px-3 py-2 rounded-lg mt-6">
+            <p>Bus</p>
+            <img src="images/bus-icon.png" alt="">
+        </div>
+     </div>
+    </section>
+    <!-- header section end -->
 
     <script src="js/ticket.js"></script>
 </body>
