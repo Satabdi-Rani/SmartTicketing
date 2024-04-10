@@ -174,9 +174,9 @@
 
 
     <!-- Select your seat section start -->
-    <section class="bg-[#F7F8F8] pt-16"> <!--whole seat section-->
-      <div class="bg-[#FFFFFF] w-10/12 mx-auto rounded-[30px] flex lg:flex-row"> <!-- white div-->
-        <div class="w-8/12 lg:p-10">
+    <section class="bg-[#F7F8F8] pt-16 pb-20"> <!--whole seat section-->
+      <div class="bg-[#FFFFFF] w-10/12 mx-auto rounded-[30px] flex lg:flex-row "> <!-- white div-->
+        <div class="w-8/12 lg:p-10 border-r-2 border-gray-300 border-dashed ">
             <div>
                 <div>
                     <h1 class="lg:text-4xl text-black font-semibold pb-6">Select Your Seat</h1>
@@ -367,7 +367,65 @@
 
         <!-- Select your seat -->
         <div class="w-4/12">
-            56shdvhdsv
+            <div class="sm:p-10">
+                <h1 class="lg:text-4xl text-black font-semibold pb-6">Select Your Seat</h1>
+                <div class="border-t-2 border-dashed"></div>
+
+                <div class="bg-[#F7F8F8] mt-12 rounded-[20px]">
+                    <div class="sm:p-8 ">
+                        <div class="flex justify-between border-b-2 border-gray-400 border-dashed pb-2">
+                            <h3>Seat</h3>
+                            <h3>Class</h3>
+                            <h3>Price</h3>
+                        </div>
+                        <div class="flex justify-between border-b-2 border-gray-400 pt-4  pb-2">
+                            <h3>C2</h3>
+                            <h3>Economy</h3>
+                            <h3>550</h3>
+                        </div>
+                        <!-- total -->
+                        <div class="flex justify-between pt-4  pb-2">
+                            <h3>Total Price</h3>
+                            <h3>BDT 1100</h3>
+                        </div>
+                        <!-- Coupon -->
+                        <div class="bg-[#FFFFFF]  ">
+                           <input class="p-4 rounded-[20px]" type="text" placeholder="Have any coupon?">
+                           <button>Apply</button>
+                        </div>
+                        <!-- grand total -->
+                        <div class="flex justify-between pt-4  pb-2">
+                            <h3>Grand Total</h3>
+                            <h3>BDT 1100</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- passenger informaiton -->
+                <div class="pt-12 flex flex-col gap-6">
+                    <div>
+                        <h4 class="text-2xl font-bold text-black">Passenger Name<sub>*</sub></h4>
+                        <input class="w-full h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-black">Phone Number<sub>*</sub></h4>
+                        <input class="w-full h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-black">Email ID</h4>
+                        <input class="w-full h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your email id">
+                    </div>
+                    <button class="w-full bg-[#1DD100] text-white py-4 rounded-lg text-2xl font-bold">Next</button>
+                    <div>
+                        <ul class="flex justify-around underline text-xl">
+                            <a href="#"><li>Terms and Conditions</li></a>
+                            <a href="#"><li>Cancellation Policy</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
         </div>
       </div> <!-- white div-->
     </section> <!--whole seat section-->
