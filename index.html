@@ -9,12 +9,12 @@
 </head>
 <body class="">
     <!-- header section start -->
-    <section class="flex justify-between  mx-auto container pt-8 md:w-10/12">
+    <section class="flex justify-between  mx-auto container pt-8 w-10/12">
      <div class="">
         <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold ">P-Ticket</h1>
      </div>
      <div>
-        <ul class="flex text-3xl gap-x-10 pt-6 ">
+        <ul class="hidden sm:flex  text-3xl gap-x-10 pt-6 ">
             <a href="#"><li class="hover:text-lime-600">Home</li></a>
             <a href="#"><li class="hover:text-lime-600">About</li></a>
             <a href="#"><li class="hover:text-lime-600">Destination</li></a>
@@ -22,7 +22,7 @@
         </ul>
      </div>
      <div class="">
-        <div class="flex gap-3 text-3xl border-lime-500 border-2 bg-lime-200 px-3 py-2 rounded-lg mt-6">
+        <div class="flex gap-3 text-3xl border-lime-500 border-2 bg-lime-200 px-3 py-2 rounded-lg sm:mt-6">
             <p>Bus</p>
             <img src="images/bus-icon.png" alt="">
         </div>
@@ -39,7 +39,7 @@
               <h2 class="text-[#1DD100] font-bold text-3xl sm:text-7xl">P Paribahan</h2>
               <h3 class="text-white text-md sm:text-2xl w-11/12 sm:w-7/12 text-center">Yes, you can run unit tests and view the results directly within the app. The
                 integrated testing features allow for a streamlined .</h3>
-              <button class="text-black bg-[#1DD100] px-3 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl text-md sm:text-2xl font-bold">Buy Tickets</button>
+              <button onclick="scrollToSection()" class="text-black bg-[#1DD100] px-3 sm:px-6 py-2 sm:py-4 rounded-lg sm:rounded-xl text-md sm:text-2xl font-bold">Buy Tickets</button>
            </div>
         </div>
 
@@ -206,13 +206,13 @@
                     <div class="flex gap-10">
                         <h3 class="sm:text-3xl font-bold pt-3">A</h3>
                         <div class="flex gap-4 text-gray-400 ">
-                            <h3 class="w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A1</h3>
-                            <h3 class="w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A2</h3>
+                            <h3 class="seat w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A1</h3>
+                            <h3 class="seat w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A2</h3>
                         </div>
                     </div>
                     <div class="flex sm:flex-row gap-4 text-gray-400">
-                        <h3 class="w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A3</h3>
-                        <h3 class="w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A4</h3>
+                        <h3 class="seat w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A3</h3>
+                        <h3 class="seat w-[50px] h-[50px] sm:w-[160px] sm:h-[70px] bg-[#F7F8F8] rounded-lg sm:text-3xl font-bold flex justify-center items-center">A4</h3>
                     </div>
                 </div>
 
@@ -378,10 +378,10 @@
                             <h3 class="text-xl text-black text-semibold">Class</h3>
                             <h3 class="text-xl text-black text-semibold">Price</h3>
                         </div>
-                        <div class="flex justify-between border-b-2 border-gray-400 pt-4  pb-2">
-                            <h3>C2</h3>
+                        <div id="ticket-selected" class="flex justify-between border-b-2 border-gray-400 pt-4  pb-2">
+                            <!-- <h3 id="ticket-number">C2</h3>
                             <h3>Economy</h3>
-                            <h3>550</h3>
+                            <h3>550</h3> -->
                         </div>
                         <!-- total -->
                         <div class="flex justify-between pt-4  pb-2">
