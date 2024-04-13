@@ -135,7 +135,7 @@
 
                         <div class="flex bg-[#DDF8D9] rounded-lg">
                             <img class="lg:w-5 lg:h-5" src="images/seat-green.png" alt="">
-                            <h4 class="lg:text-2xl text-lime-500 lg:pl-4">40 Seats left</h4>
+                            <h4 class="lg:text-2xl text-lime-500 lg:pl-4"> <span id="seats-left">40</span> Seats left</h4>
                         </div>
                       </div>
 
@@ -372,14 +372,17 @@
                 <div class="border-t-2 border-dashed"></div>
 
                 <div class="bg-[#F7F8F8] mt-12 rounded-[20px]">
-                    <div class="sm:p-8 ">
+                    <div id="seat-container" class="sm:p-8 ">
                         <div class="flex justify-between border-b-2 border-gray-400 border-dashed pb-2">
-                            <h3 class="text-xl text-black text-semibold">Seat <span class="bg-[#1DD100] px-2 py-1 rounded-full text-white font-bold"><sup>2</sup></span></h3>
+                            <h3 class="text-xl text-black text-semibold">Seat <span id="seat-Number" class="bg-[#1DD100] px-2 py-1 rounded-full text-white font-bold">0</span></h3>
                             <h3 class="text-xl text-black text-semibold">Class</h3>
                             <h3 class="text-xl text-black text-semibold">Price</h3>
                         </div>
-                        <div id="ticket-selected" class="flex justify-between border-b-2 border-gray-400 pt-4  pb-2">
-                            <!-- <h3 id="ticket-number">C2</h3>
+                        <div id="ticket-selected" class=" border-b-2 border-gray-400 pt-4  pb-2">
+                            <ul id="ticket-SelectedUl" class="flex flex-col justify-between">
+                                
+                            </ul>
+                            <!-- <h3 id="ticket-number">C2</h3> ul
                             <h3>Economy</h3>
                             <h3>550</h3> -->
                         </div>
@@ -480,5 +483,6 @@
     <!-- Footer Section end -->
 
     <script src="js/ticket.js"></script>
+    <script src="js/utilities.js"></script>
 </body>
 </html>
