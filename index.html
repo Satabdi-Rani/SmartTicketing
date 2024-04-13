@@ -393,13 +393,13 @@
                         </div>
                         <!-- Coupon -->
                         <div class="bg-[#FFFFFF]  ">
-                           <input class="p-4 rounded-[20px]" type="text" placeholder="Have any coupon?">
-                           <button class="px-4 py-2 bg-[#1DD100] rounded-lg">Apply</button>
+                           <input id="coupon-input" class="p-4 rounded-[20px]" type="text" placeholder="Have any coupon?">
+                           <button id="btn-apply" class="px-4 py-2 bg-[#1DD100] rounded-lg disabled:">Apply</button>
                         </div>
                         <!-- grand total -->
                         <div class="flex justify-between pt-4  pb-2">
                             <h3 class="text-xl text-black text-bold">Grand Total</h3>
-                            <h3 class="text-xl text-black text-bold">BDT 1100</h3>
+                            <h3 class="text-xl text-black text-bold">BDT <span id="grand-price">0</span></h3>
                         </div>
                     </div>
 
@@ -419,7 +419,7 @@
                         <h4 class="text-lg sm:text-2xl font-bold text-black">Email ID</h4>
                         <input class="w-full h-12 sm:h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your email id">
                     </div>
-                    <button class="w-full bg-[#1DD100] text-white py-3 sm:py-4 rounded-lg text-2xl font-bold">Next</button>
+                    <button id="btn-next" class="w-full bg-gray-400 text-white py-3 sm:py-4 rounded-lg text-2xl font-bold">Next</button>
                     <div>
                         <ul class="flex justify-around underline text-md sm:text-xl">
                             <a href="#"><li>Terms and Conditions</li></a>
