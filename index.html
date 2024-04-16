@@ -387,14 +387,14 @@
                             <h3>550</h3> -->
                         </div>
                         <!-- total -->
-                        <div class="flex justify-between pt-4  pb-2">
+                        <div id="total-container" class="flex justify-between pt-4  pb-2">
                             <h3 class="text-xl text-black text-bold">Total Price</h3>
                             <h3 class="text-xl text-black text-bold">BDT <span id="total-price">0</span></h3>
                         </div>
                         <!-- Coupon -->
                         <div class="bg-[#FFFFFF]  ">
                            <input id="coupon-input" class="p-4 rounded-[20px]" type="text" placeholder="Have any coupon?">
-                           <button id="btn-apply" class="px-4 py-2 bg-[#1DD100] rounded-lg disabled:">Apply</button>
+                           <button onclick="" id="btn-apply" class="px-4 py-2 bg-[#1DD100] rounded-lg">Apply</button>
                         </div>
                         <!-- grand total -->
                         <div class="flex justify-between pt-4  pb-2">
@@ -412,14 +412,14 @@
                         <input class="w-full h-12 sm:h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your Name">
                     </div>
                     <div>
-                        <h4 class="text-lg sm:text-2xl font-bold text-black">Phone Number<sup>*</sup></h4>
+                        <h4 id="phone-number" class="text-lg sm:text-2xl font-bold text-black">Phone Number<sup>*</sup></h4>
                         <input class="w-full h-12 sm:h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your Phone Number">
                     </div>
                     <div>
                         <h4 class="text-lg sm:text-2xl font-bold text-black">Email ID</h4>
                         <input class="w-full h-12 sm:h-16 border rounded-xl pl-4 mt-4" type="text" placeholder="Enter Your email id">
                     </div>
-                    <button id="btn-next" class="w-full bg-gray-400 text-white py-3 sm:py-4 rounded-lg text-2xl font-bold">Next</button>
+                    <button id="btn-next" class="w-full bg-[#1DD100] text-white py-3 sm:py-4 rounded-lg text-2xl font-bold">Next</button>
                     <div>
                         <ul class="flex justify-around underline text-md sm:text-xl">
                             <a href="#"><li>Terms and Conditions</li></a>

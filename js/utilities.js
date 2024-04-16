@@ -6,6 +6,6 @@ function stringToNumber(input){
 
 
 
-document.getElementById('btn-continue').addEventListener('click', function(){
-    location.href = "index.html";
-})
+// document.getElementById('btn-continue').addEventListener('click', function(){
+//     location.href = "index.html";
+// })
